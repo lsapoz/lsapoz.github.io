@@ -1,9 +1,39 @@
 body {
     background-color: #fafafa;
+    font-family: sans-serif;
 }
 
-.img-placeholder {
-    display: block;
-    margin: auto;
-    max-width: 100%;
+.container {
+    height: 66.66%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-left: 20%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+ul.external-links {
+    padding: 0;
+}
+
+ul.external-links > li {
+    list-style: none;
+    display: inline;
+    font-size: 1.5em;
+    margin-right: 2.5em;
+}
+
+ul.external-links > li > a:link,
+ul.external-links > li > a:visited {
+    color: #f57b23;
+    text-decoration: none;
+}
+
+ul.external-links > li > a:hover {
+    color: #c24800;
 }
